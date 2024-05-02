@@ -13,8 +13,8 @@ steps:
 
 - task: UiPathTest@4
   inputs:
-    testTarget: 'TestProject'
+    testTarget: 'TestSet'
     orchestratorConnection: 'Staging'
-    testProjectPath: '360 Degree Test Suite Demo'
+    testSet: 'DemoTestSet'
     folderName: '360° Test Suite Demo'
     attachRobotLogs: true
